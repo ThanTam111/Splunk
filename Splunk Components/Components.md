@@ -55,7 +55,7 @@ Splunk gồm có 3 thành phần chính đó là :
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_5.png)
 
 Ngoài ba thành phần chính trên của Splunk thì  cũng có các thành phần khác nhưng không được phổ biến.
-![anh1]()
+![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_2.png)
 
 
 # 3. Mô hình triển khai.
