@@ -38,7 +38,7 @@ Splunk gồm có 3 thành phần chính đó là :
 * Tiêu tốn một lượng nhỏ tài nguyên trên máy cài đặt Splunk FWD.
 * Forwarder là phương thức chủ yếu để đẩy log về Splunk Indexer.
 
-![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_7.png)
+![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_16.png)
 
 ## 2.2. Splunk Indexer.
 * Xử lý dữ liệu, lưu trữ thành các sự kiện để hỗ trợ tìm kiếm nhanh và phân tích.
