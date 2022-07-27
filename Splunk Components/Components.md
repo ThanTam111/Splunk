@@ -26,22 +26,30 @@ Lưu trữ dữ liệu bao gồm hai giai đoạn: Phân tích cú pháp và L�
 Giai đoạn này kiểm soát cách người dùng truy cập, xem và sử dụng dữ liệu được lập chỉ mục. Là một phần của chức năng tìm kiếm, phần mềm Splunk lưu trữ các đối tượng do người dùng tạo, chẳng hạn như báo cáo, các loại sự kiện, trang tổng quan, cảnh báo và trích xuất trường. Chức năng tìm kiếm cũng quản lý quá trình tìm kiếm.
 
 Các giai đoạn truyền dẫn dữ liệu khác nhau mà theo đó các thành phần Splunk khác nhau nằm trong đó.
+
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_15.png)
 # 2.Các thành phần của Splunk.
 Splunk gồm có 3 thành phần chính đó là :
+
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_2.png)
+
 ## 2.1.Splunk Forwarder.
 * Splunk Forwarder thu thập và gửi dữ liệu từ máy được cài đặt về Indexer.
 * Tiêu tốn một lượng nhỏ tài nguyên trên máy cài đặt Splunk FWD.
 * Forwarder là phương thức chủ yếu để đẩy log về Splunk Indexer.
+
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_7.png)
+
 ## 2.2. Splunk Indexer.
 * Xử lý dữ liệu, lưu trữ thành các sự kiện để hỗ trợ tìm kiếm nhanh và phân tích.
 * Tổ chức phân loại các sự kiện theo thời gian (Đơn vị bucket). 
+
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_3.png)
+
 ## 2.3. Splunk Search Head.
 * Sử dụng SPL (Splunk Power Language) để thực hiện các truy vấn xuống dữ liệu tại Indexer.
 * Điều hướng các truy vấn của người dùng tới các Indexer.
 * Tổng hợp kết quả và trích xuất các trường từ sự kiện đến người dùng.
 * Cung cấp một số công cụ để tạo báo cáo, biểu đồ.
+
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_5.png)
