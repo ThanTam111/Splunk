@@ -1,4 +1,4 @@
-# 1. Quá trình Splunk xử lý dữ liệu 
+# 1. Quá trình xử lý dữ liệu của Splunk
 Quá trình xử lý dữ liệu của Splunk chủ yếu có 3 giai đoạn chính đó là :
 * Giai đoạn nhập dữ liệu
 * Giai đoạn lưu trữ dữ liệu
