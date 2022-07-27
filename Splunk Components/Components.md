@@ -77,8 +77,8 @@ Có 5 mô hình triển khai phổ biến đó là :
 Tương tự như mô hình Standalone.
 Quản trị viên triển khai cấu hình Forwarder
 * Forwarder.
-Forwarder thu thập dữ liệu và gửi đến máy chủ Splunk.
-Cài đặt forwarder tại nguồn dữ liệu.
+    * Forwarder thu thập dữ liệu và gửi đến máy chủ Splunk.
+    * Cài đặt forwarder tại nguồn dữ liệu.
 ![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_10.png)
 
 * Triển khai cơ bản cho tổ chức: 
