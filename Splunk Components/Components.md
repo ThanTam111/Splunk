@@ -67,13 +67,14 @@ Có 5 mô hình triển khai phổ biến đó là :
 * Splunk Deployment - Increasing capacity.
 * Splunk Deployment - Index Cluster.
 
-## Splunk Deployment - Standalone
+## 3.1 Splunk Deployment - Standalone
 Tất cả các chức năng trong một phiên bản duy nhất của Splunk.
+
 Sử dụng để thử nghiệm,cho cá nhân và học tập.
 
 ![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_9.png)
 
-## Splunk Deployment - Basic
+## 3.2 Splunk Deployment - Basic
 Tương tự như mô hình Standalone.
 Quản trị viên triển khai cấu hình Forwarder
 * Forwarder.
@@ -85,7 +86,7 @@ Cài đặt forwarder tại nguồn dữ liệu.
     * Lập chỉ mục dưới 20GB mỗi ngày.
     * Với dưới 20 người dùng.
     * Số lượng Forwarder nhỏ.
-## Splunk Deployment - Multi-Instance.
+## 3.3 Splunk Deployment - Multi-Instance.
 Tăng chỉ mục và dung lượng tìm kiếm.
 Quản lý tìm kiếm và chỉ mục các chức năng được chia ra trên nhiều máy.
 * Triển khai cho tổ chức. 
@@ -94,7 +95,7 @@ Quản lý tìm kiếm và chỉ mục các chức năng được chia ra trên 
     * Hỗ trợ hàng trăm đơn vị giao nhận.
 ![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_11.png)
 
-## Splunk Deployment - Increasing capacity.
+## 3.4 Splunk Deployment - Increasing capacity.
 * Tính năng thêm vào cho Search Head Cluster .
     * Dịch vụ nhiều người dùng hơn để tăng khả năng tìm kiếm.
     * Cho phép người dùng và tìm kiếm chia sẻ tài nguyên.
@@ -103,7 +104,7 @@ Quản lý tìm kiếm và chỉ mục các chức năng được chia ra trên 
 * Người triển khai được sử dụng để quản lý và phân phối ứng dụng cho các thành viên của Search Head Cluster.
 
 ![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_12.png)
-## Splunk Deployment - Index Cluster.
+## 3.5 Splunk Deployment - Index Cluster.
 * Cụm chỉ mục. 
     * Cấu hình để sao chép dữ liệu. 
     * Ngăn ngừa mất mát dữ liệu.
