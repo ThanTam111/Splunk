@@ -3,14 +3,15 @@ Quá trình xử lý dữ liệu của Splunk chủ yếu có 3 giai đoạn ch�
 * Giai đoạn nhập dữ liệu
 * Giai đoạn lưu trữ dữ liệu
 * Giai đoạn tìm kiếm dữ liệu
+
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_14.png)
 
-## Giai đoạn nhập dữ liệu :
+## 1.1 Giai đoạn nhập dữ liệu :
 
 Trong giai đoạn này, phần mềm Splunk sử dụng luồng dữ liệu thô từ nguồn của nó, chia nó thành các khối 64K và chú thích mỗi khối bằng các khóa siêu dữ liệu. Các khóa siêu dữ liệu bao gồm tên máy chủ, nguồn và loại nguồn của dữ liệu. 
 Các khóa cũng có thể bao gồm các giá trị được sử dụng nội bộ, chẳng hạn như mã hóa ký tự của luồng dữ liệu và các giá trị kiểm soát việc xử lý dữ liệu trong giai đoạn lập chỉ mục, chẳng hạn như chỉ mục mà các sự kiện sẽ được lưu trữ.
 
-## Giai đoạn lưu trữ dữ liệu :
+## 1.2 Giai đoạn lưu trữ dữ liệu :
 
 Lưu trữ dữ liệu bao gồm hai giai đoạn: Phân tích cú pháp và Lập chỉ mục.
 * Trong giai đoạn phân tích cú pháp phần mềm Splunk kiểm tra, phân tích và biến đổi dữ liệu để chỉ trích xuất thông tin có liên quan. Đây còn được gọi là xử lý sự kiện. Chính trong giai đoạn này, phần mềm Splunk chia luồng dữ liệu thành các sự kiện riêng lẻ. Giai đoạn phân tích cú pháp có nhiều giai đoạn phụ.
