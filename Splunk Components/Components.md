@@ -53,3 +53,65 @@ Splunk gồm có 3 thành phần chính đó là :
 * Cung cấp một số công cụ để tạo báo cáo, biểu đồ.
 
 ![anh1](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_5.png)
+
+Ngoài ba thành phần chính trên của Splunk thì  cũng có các thành phần khác nhưng không được phổ biến.
+![anh1]()
+
+
+# 3. Mô hình triển khai.
+
+Có 5 mô hình triển khai phổ biến đó là : 
+* Splunk Deployment - Standalone.
+* Splunk Deployment - Basic.
+* Splunk Deployment - Multi-Instance.
+* Splunk Deployment - Increasing capacity.
+* Splunk Deployment - Index Cluster.
+
+## Splunk Deployment - Standalone
+Tất cả các chức năng trong một phiên bản duy nhất của Splunk.
+Sử dụng để thử nghiệm,cho cá nhân và học tập.
+
+![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_9.png)
+
+## Splunk Deployment - Basic
+Tương tự như mô hình Standalone.
+Quản trị viên triển khai cấu hình Forwarder
+* Forwarder.
+Forwarder thu thập dữ liệu và gửi đến máy chủ Splunk.
+Cài đặt forwarder tại nguồn dữ liệu.
+![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_10.png)
+
+* Triển khai cơ bản cho tổ chức: 
+    * Lập chỉ mục dưới 20GB mỗi ngày.
+    * Với dưới 20 người dùng.
+    * Số lượng Forwarder nhỏ.
+## Splunk Deployment - Multi-Instance.
+Tăng chỉ mục và dung lượng tìm kiếm.
+Quản lý tìm kiếm và chỉ mục các chức năng được chia ra trên nhiều máy.
+* Triển khai cho tổ chức. 
+    * Lập chỉ mục lên đến 100GB mỗi ngày.
+    * Hỗ trợ 100 người dùng.
+    * Hỗ trợ hàng trăm đơn vị giao nhận.
+![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_11.png)
+
+## Splunk Deployment - Increasing capacity.
+* Tính năng thêm vào cho Search Head Cluster .
+    * Dịch vụ nhiều người dùng hơn để tăng khả năng tìm kiếm.
+    * Cho phép người dùng và tìm kiếm chia sẻ tài nguyên.
+    * Các hoạt động phối hợp để xử lý tìm kiếm yêu cầu và phân phối  các yêu cầu trên một tập hợp các chỉ mục.
+* Search Head Clusters yêu cầu tối thiếu 3 Search Heads.
+* Người triển khai được sử dụng để quản lý và phân phối ứng dụng cho các thành viên của Search Head Cluster.
+
+![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_12.png)
+## Splunk Deployment - Index Cluster.
+* Cụm chỉ mục. 
+    * Cấu hình để sao chép dữ liệu. 
+    * Ngăn ngừa mất mát dữ liệu.
+    * Thúc đẩy tính khả dụng.
+    * Quản lý nhiều người lập chỉ mục.
+* Cụm chỉ mục không sao chép.
+    * Cung cấp quản lý đơn giản hóa.
+    * Không cung cấp tính khả dụng hoặc phục hồi dữ liệu.
+
+![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_13.png)
+
