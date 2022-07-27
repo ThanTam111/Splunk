@@ -17,10 +17,11 @@ Dữ liệu sau khi thu thập từ `Indexer` sẽ được tìm kiếm bởi `S
 
 # 3. Các mô hình triển khai Splunk.
 
-* Splunk Enterprise
-    * Được cài đặt và quản lý tại chỗ
-* Splunk Cloud
-    * Như một Splunk Enterprise mở rộng
-    * Không cần cơ sở hạ tầng
-* Splunk Light
-    * Giải pháp cho doanh nghiệp có quy mô nhỏ
+* Splunk Enterprise.
+    * Được cài đặt và quản lý tại chỗ.
+* Splunk Cloud.
+    * Như một Splunk Enterprise mở rộng.
+    * Không cần cơ sở hạ tầng.
+* Splunk Light.
+    * Giải pháp cho doanh nghiệp có quy mô nhỏ.
+
