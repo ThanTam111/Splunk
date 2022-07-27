@@ -68,9 +68,8 @@ Có 5 mô hình triển khai phổ biến đó là :
 * Splunk Deployment - Index Cluster.
 
 ## 3.1 Splunk Deployment - Standalone
-Tất cả các chức năng trong một phiên bản duy nhất của Splunk.
-
-Sử dụng để thử nghiệm,cho cá nhân và học tập.
+* Tất cả các chức năng trong một phiên bản duy nhất của Splunk.
+* Sử dụng để thử nghiệm,cho cá nhân và học tập.
 
 ![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_9.png)
 
