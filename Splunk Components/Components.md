@@ -79,6 +79,7 @@ Quản trị viên triển khai cấu hình Forwarder
 * Forwarder.
     * Forwarder thu thập dữ liệu và gửi đến máy chủ Splunk.
     * Cài đặt forwarder tại nguồn dữ liệu.
+
 ![anh](https://github.com/ThanTam111/Splunk/blob/main/Image/Screenshot_10.png)
 
 * Triển khai cơ bản cho tổ chức: 
@@ -86,8 +87,8 @@ Quản trị viên triển khai cấu hình Forwarder
     * Với dưới 20 người dùng.
     * Số lượng Forwarder nhỏ.
 ## 3.3 Splunk Deployment - Multi-Instance.
-Tăng chỉ mục và dung lượng tìm kiếm.
-Quản lý tìm kiếm và chỉ mục các chức năng được chia ra trên nhiều máy.
+* Tăng chỉ mục và dung lượng tìm kiếm.
+* Quản lý tìm kiếm và chỉ mục các chức năng được chia ra trên nhiều máy.
 * Triển khai cho tổ chức. 
     * Lập chỉ mục lên đến 100GB mỗi ngày.
     * Hỗ trợ 100 người dùng.
